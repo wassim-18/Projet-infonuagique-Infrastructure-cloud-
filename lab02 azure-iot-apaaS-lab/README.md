@@ -38,11 +38,14 @@ azure-iot-apaaS-lab/
 ├── webapp/      # Application Web
 
 ⚙️ Installation
-1. Cloner le projet
-git clone https://github.com/wassim-18/azure-iot-apaaS-lab.git
-cd azure-iot-apaaS-lab
+# 1) Cloner le dépôt principal (qui contient lab01 + lab02)
+git clone https://github.com/wassim-18/Projet-infonuagique-Infrastructure-cloud-.git
 
-2. Installer les dépendances
+# 2) Aller dans le dossier du lab02
+cd Projet-infonuagique-Infrastructure-cloud-
+cd "lab02 azure-iot-apaaS-lab"
+
+# 3) Installer les dépendances Python
 pip install azure-iot-device azure-cosmos flask
 
 3. Variables d’environnement
